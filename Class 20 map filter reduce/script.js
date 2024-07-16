@@ -32,11 +32,11 @@ let a3 = arr3.reduce((h1, h2) => {
 });
 console.log(a3);
 // and now reduce should be in a function so we can write this
-let arr3 = [1, 3, 5, 7, 9, 2, 1];
+let arr4 = [1, 3, 5, 7, 9, 2, 1];
 //where a3 is a new function also h1 targeting 1 and h2 targeting 2
 //Creating function separately
 const newFunc = (h1, h2) => {
   return h1 + h2;
 };
-let a3 = arr3.reduce(newFunc);
-console.log(a3);
+let a4 = arr4.reduce(newFunc);
+console.log(a4);
