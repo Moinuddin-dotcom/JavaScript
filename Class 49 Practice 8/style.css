@@ -1,0 +1,12 @@
+ .problem4 {
+     height: 100px;
+ }
+
+ .bulb {
+     background: yellow;
+ }
+
+ .bulbContainer {
+     width: 20vw;
+     height: 50vh;
+ }
